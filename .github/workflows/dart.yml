@@ -36,7 +36,7 @@ jobs:
 
           
       - name: Install flutter
-        run: flutter --doctor
+        run: flutter doctor
         
       - name: Install dependencies
         run: dart pub get
