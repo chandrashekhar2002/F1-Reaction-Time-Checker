@@ -44,3 +44,7 @@ jobs:
         
       - name: Compile app
         run: flutter build apk --release
+        
+        
+      - name: Compile app IOS
+        run: flutter build ipa --release --no-codesign
