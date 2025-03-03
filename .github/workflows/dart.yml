@@ -39,7 +39,7 @@ jobs:
         run: flutter doctor
         
       - name: Install dependencies
-        run: dart pub get
+        run: flutter pub get
 
         
       - name: Compile app
@@ -47,4 +47,4 @@ jobs:
         
         
       - name: Compile app IOS
-        run: flutter build ipa --release --no-codesign
+        run: flutter build ios --release --no-codesign
