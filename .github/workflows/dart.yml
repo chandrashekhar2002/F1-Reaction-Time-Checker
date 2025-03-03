@@ -47,4 +47,4 @@ jobs:
         
         
       - name: Compile app IOS
-        run: flutter build ios --release --no-codesign
+        run: flutter build ios --no-codesign
